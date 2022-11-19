@@ -1,0 +1,37 @@
+.header_sidebar img{
+    width: 80px;
+
+}
+.header_sidebar .social a {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-decoration: capitalize;
+}
+.header_sidebar.social a:nth-child(2){
+    color: var(--main-color);
+}
+.header_sidebar.social a:nth-child(3) {
+    color: var(--title-color);
+
+}
+.header_content .navbar .navbar-booking{
+    color: var(--white);
+    font-size: 16px;
+    
+}
+.header_content .navbar,.navbar_menu li a {
+    color: var(--white);
+    font-size: 16px;
+}
+.header_content ,.banner-text .label{
+    color: var(--text-color-2);
+    font-size: 16px;
+    opacity:0.6;
+    text-transform: uppercase;
+}
+.header_content .banner-text .info{
+    color: var(--text-color-2);
+    font-size: 16px;
+    text-transform:uppercase;
+}
